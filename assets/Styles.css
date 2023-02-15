@@ -94,6 +94,7 @@ main{
     display: flex;
     margin: 0 auto;
 align-items: center;
+box-shadow: -10px -10px 5px #a704974f;
 
 }
 section{
@@ -104,6 +105,7 @@ section{
     height: 130px;
     object-fit: cover;
     padding-top: 10px;
+    
 }
 
 footer{
