@@ -7,9 +7,11 @@
 }
 
 nav.navbar{
-background-color: rgb(191, 190, 191);
+background-image: url(./img/1.gif);
 padding-right: 10px;
 padding-left: 10px;
+background-size: cover;
+background-position:top;
 }
 .nav-item:hover{
     
@@ -25,13 +27,14 @@ img, fieldset{
 }
 .banner{
 
-    background-image: url(./img/psico.jpg);
+    background-image: url(./img/l\ e\ m\ o\ n.gif);
     width: 100%;
     height: 60px;
     display: flex;
     align-items:center;
     justify-content: space-between;
     padding: 12px;
+   
     
 }
 .banner .der{
@@ -55,13 +58,19 @@ img, fieldset{
     flex-wrap: wrap
     
 }
-body {
+label{
+    font-family: 'Ubuntu', sans-serif!important;
+    color: rgb(94, 92, 93);
     
-    background-color: rgba(223, 166, 183, 0.604)!important;
+    
+}
+body {
+    background-image: url(./img/marmol.jpg)!important;
+    
 }
 
 .form-check-input:checked{
-    background-color: #fa4ca6!important;
+    background-color: #b63b7a!important;
     border-color: #b02a37!important;
 }
 main{
@@ -77,34 +86,45 @@ main{
     align-items: center;
     gap: 30px;
     margin-top: 20px;
-    margin-bottom: 30px;
-
+   
+    min-height: 100vh;
+    margin-bottom: -60px;
 
 }
+
+.mainhome::after {
+    content: "";
+    display: block;
+    height: 60px; 
+    margin-top: -20px; 
+  }
 
 .btn {
     display: flex;
     position:absolute;
     right: 10px;
     bottom: 25px;
-    background-color: #e44b9a!important;
+    background-color: #b63b7a!important;
     border-color: rgb(124, 120, 120)!important;
 }
 .card{
     display: flex;
     margin: 0 auto;
 align-items: center;
-box-shadow: -10px -10px 5px #a704974f;
+box-shadow: -10px -10px 5px #56062f6e;
+
 
 }
+
 section{
-    gap: 25px;
+    gap:25px;
 }
 .card .card-img-top{
     width: 100%;
     height: 130px;
     object-fit: cover;
-    padding-top: 10px;
+   margin-top: 1rem;
+    box-shadow: -5px -5px 5px #24222386;
     
 }
 .cardevent{
@@ -120,9 +140,16 @@ section{
 
 footer{
     display: flex;
+    
+    bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
     background-color: rgb(200, 108, 136);
     padding: 20px;
-    
+    position: relative;
+  margin-top: auto;
+  height: 75px;
    justify-content: space-between;
     align-items: center;
 }
@@ -164,12 +191,16 @@ form.contacto{
 
 .btncont {
     display: flex;
-    background-color: #e44b9a!important;
-    border-color: rgb(124, 120, 120)!important;
+    background-color: #b63b7a!important;
+    border-color: rgb(182, 103, 103)!important;
     margin: 20px;
+    color: aliceblue!important; 
+    box-shadow: -3px -3px 5px #89566f9f!important;
     
+}
 
-    
+.btn-primary{
+    box-shadow: -3px -3px 5px #89566f9f!important;
 }
 .pagevent{
     display: flex;
@@ -188,8 +219,30 @@ form.contacto{
 
 .img-fluid{
     height: 100%!important;
+    object-fit: cover!important;
 }
 
 .col{
     margin-top: 20px;
+    
+}
+
+
+
+@media (min-width: 768px){
+#texto {
+    flex: 0 0 auto!important;
+    width:50%!important;
+}
+
+#image {
+    
+    FONT-WEIGHT: 100!important;
+    flex: 0 0 auto!important;
+    width: 50%!important;
+}
+
+
+  
+
 }

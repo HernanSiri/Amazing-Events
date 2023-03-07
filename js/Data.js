@@ -179,10 +179,12 @@ let data = {
        <h5 class="card-title">${event.name}</h5>
         <p class="card-text">${event.description}.</p>
         <p>$${event.price}</p>
-        <a href="./Event.html" class="btn btn-primary">Ver más...</a>
+        <a href="./Event.html?id=${event._id}" class="btn btn-primary">Ver más...</a>
     </div>
     </div>`
     
 
   }
 
+
+  
