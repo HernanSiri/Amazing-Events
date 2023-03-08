@@ -115,8 +115,11 @@ box-shadow: -10px -10px 5px #56062f6e;
 
 
 }
-
 section{
+    gap:25px
+}
+
+div{
     gap:25px;
 }
 .card .card-img-top{
