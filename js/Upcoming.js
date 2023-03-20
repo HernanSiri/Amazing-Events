@@ -1,4 +1,5 @@
-
+let data = localStorage.getItem("data")
+data = JSON.parse(data)
 
 function displayPastEvents(data) {
     let pastEvents = ""; 

@@ -112,6 +112,7 @@ main{
     margin: 0 auto;
 align-items: center;
 box-shadow: -10px -10px 5px #56062f6e;
+background-color: #dedede!important;
 
 
 }
@@ -119,7 +120,7 @@ section{
     gap:25px
 }
 
-div{
+#cards{
     gap:25px;
 }
 .card .card-img-top{
@@ -130,9 +131,7 @@ div{
     box-shadow: -5px -5px 5px #24222386;
     
 }
-.cardevent{
-    
-}
+
 
 .texcard{
    
@@ -221,6 +220,7 @@ form.contacto{
 }
 
 .img-fluid{
+    width: 100%!important;
     height: 100%!important;
     object-fit: cover!important;
 }
@@ -229,20 +229,30 @@ form.contacto{
     margin-top: 20px;
     
 }
+#color{
+background-color:#edc3d5c5 ;
+box-shadow: -10px -10px 5px #56062f3a;
+}
 
+#color1{
+    background-color: #f1b3ce;
+}
 
+#color2{
+    background-color: #dedede!important;
+}
 
 @media (min-width: 768px){
 #texto {
     flex: 0 0 auto!important;
-    width:50%!important;
+    width:40%!important;
 }
 
 #image {
     
     FONT-WEIGHT: 100!important;
     flex: 0 0 auto!important;
-    width: 50%!important;
+    width: 60%!important;
 }
 
 
